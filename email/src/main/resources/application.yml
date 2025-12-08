@@ -14,15 +14,15 @@ spring:
       dialect: org.hibernate.dialect.PostgreSQLDialect
 
   rabbitmq:
-    addresses: amqps://duck.lmq.cloudamqp.com
-    username: ${RABBITMQ_USERNAME}
-    password: ${RABBITMQ_PASSWORD}
-    virtual-host: pofhowkh
+    addresses: amqps://jaragua.lmq.cloudamqp.com
+    username: vjmdobti
+    password: xHPXbFq_oxgAf09D5-N3ozkIZKcZhGlI
+    virtual-host: vjmdobti
 
   flyway:
-      enabled: true
-      locations: classpath:db/migration
-      baseline-on-migrate: true
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
 
   mail:
     host: smtp.gmail.com
