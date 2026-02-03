@@ -17,6 +17,8 @@ import java.util.UUID;
 @Table(name = "tb_email")
 public class EmailModel {
 
+    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "email_id")
